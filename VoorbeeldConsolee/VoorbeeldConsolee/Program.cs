@@ -10,7 +10,10 @@ namespace VoorbeeldConsolee
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.Red;
+            
             Console.WriteLine("YOOOO");
+            Console.WriteLine("Druk op een toets om het programma te eindigen.");
             Console.ReadKey();
         }
     }
